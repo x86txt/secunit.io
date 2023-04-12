@@ -17,7 +17,7 @@ paginate     = 10
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = false
+  enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
   # enableGlobalLanguageMenu = true
@@ -26,6 +26,29 @@ paginate     = 10
   description = "matthew evans' localhost"
   keywords = "homepage, blog"
   images = [""]
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/x86txt"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/mevanssecurity/"
+
+  [[params.social]]
+    name = "goodreads"
+    url  = "https://www.goodreads.com/user/show/138025628-matthew"
+
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = false
+
+    topText = []
+    bottomText = [
+      "powered by <a href=\"https://pages.cloudflare.com/\">cloudflare pages</a> & <a href=\"https://github.com/\">github</a>"
+    ]
 
 [taxonomies]
     category = "blog"
@@ -37,7 +60,7 @@ paginate     = 10
     title = "my digital home"
     subtitle = "welcome, and stuff ..."
     keywords = "matthew evans, devsecops, devops, secops, aws, azure, cloud, engineer"
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
