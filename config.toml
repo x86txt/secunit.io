@@ -10,19 +10,12 @@ paginate     = 10
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
   homeSubtitle = "welcome, and stuff ..."
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
   enableSharingButtons = true
   
-  # Show a global language switcher in the navigation bar
-  # enableGlobalLanguageMenu = true
-
-  # Metadata mostly used in document's head
   description = "matthew evans' localhost"
   keywords = "homepage, blog"
   images = [""]
@@ -66,12 +59,7 @@ paginate     = 10
     [languages.en.params.logo]
       logoText = "hello | secunit"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
-  # And you can even create generic menu
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -82,17 +70,9 @@ paginate     = 10
     name       = "posts"
     url        = "/posts"
   [[menu.main]]
-    identifier = "monero"
-    name       = "monero"
-    url        = "/monero"
-  [[menu.main]]
     identifier = "devops"
     name       = "devops"
     url        = "/devops"
-  [[menu.main]]
-    identifier = "misc"
-    name       = "misc"
-    url        = "/misc"
   [[menu.main]]
     identifier = "portfolio"
     name       = "my portfolio"

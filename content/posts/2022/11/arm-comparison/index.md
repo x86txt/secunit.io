@@ -14,7 +14,7 @@ A friend of mine left Apple's processor division and went to work for Qualcomm a
 
 I wrote all this today because I was interested to see how my 6-core ODroid-N2+ SBC (widely regarded as the faster ARM SBCs out) fared in Geekbench against my 10-core M1 Max - I know, not fair at all, but still interesting.
 
-<small>(And yes, I know Geekbench is seethingly hated amongst professional reviewers, I'm sure [Hardware Jesus](https://www.youtube.com/user/gamersnexus) will forgive me this one time ...)</small>
+<small>(And yes, I know Geekbench is seethingly hated amongst professional reviewers, but it works for our purposes just fine ...)</small>
 
 So, without further adoo:
 
