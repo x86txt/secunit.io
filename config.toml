@@ -74,6 +74,10 @@ paginate     = 10
     name       = "devops"
     url        = "/devops"
   [[menu.main]]
+    identifier = "files"
+    name       = "files"
+    url        = "https://files.secunit.io/"
+  [[menu.main]]
     identifier = "portfolio"
     name       = "my portfolio"
     url        = "https://portfolio.secunit.io/"
