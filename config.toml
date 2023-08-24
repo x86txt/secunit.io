@@ -40,7 +40,9 @@ paginate     = 10
 
     topText = []
     bottomText = [
-      "powered by <a href=\"https://pages.cloudflare.com/\">cloudflare pages</a> & <a href=\"https://github.com/\">github</a>"
+      "powered by <a href=\"https://pages.cloudflare.com/\">cloudflare pages</a> & <a href=\"https://github.com/\">github</a>",
+      "<script async data-id=\"101423814\" src=\"//static.getclicky.com/js\"></script>",
+      "<noscript><p><img alt=\"Clicky\" width=\"1\" height=\"1\" src=\"//in.getclicky.com/101423814ns.gif\" /></p></noscript>"
     ]
 
 [taxonomies]
