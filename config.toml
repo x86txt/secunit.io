@@ -93,3 +93,7 @@ paginate     = 10
     identifier = "misc"
     name       = "misc"
     url        = "/misc"
+  [[menu.main]]
+    identifier = "portfolio"
+    name       = "my portfolio"
+    url        = "https://portfolio.secunit.io/"
