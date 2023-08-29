@@ -26,8 +26,8 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.ACCOUNT_ID }}
           projectName: ${{ secrets.CF_PROJECT_NAME }}
-          directory: ${{ secrets.CF_BUILD_OUTPUT_DIR }}
+          directory: /public
           gitHubToken: ${{ secrets.CF_GITHUB_TOKEN }}
           branch: main
-          workingDirectory: /
+          # workingDirectory: /
           wranglerVersion: '3'
