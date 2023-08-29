@@ -25,4 +25,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.ACCOUNT_ID }}
-          command: pages deploy --project-name=secunit-io --dir=public
+          command: pages deploy --project-name=secunit-io
